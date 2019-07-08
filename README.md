@@ -1,7 +1,11 @@
 # Wconky
 Wconky is a free, fully customizable software desktop system monitor for the Windows system.
 
+Wconky preview:
 ![Wconky preview](/Preview.png)
+
+Theme editor preview:
+![Wconky editor preview](/EditorPreview.jpg)
 
 # Configuration + Stability
 
