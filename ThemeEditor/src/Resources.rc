@@ -1,0 +1,41 @@
+#include <windows.h>
+#include "Resources.hpp"
+
+1 24 "Application.manifest"
+
+1 VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  1,0,0,0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "080904E4"
+    BEGIN
+      VALUE "CompanyName", "Arpeji Studio"
+      VALUE "FileDescription", "WconkyTE"
+      VALUE "FileVersion", "1.0"
+      VALUE "InternalName", "wconkyTE"
+      VALUE "LegalCopyright", "Arkadiusz Jarlaczyk (xoliper)"
+      VALUE "OriginalFilename", "wconkyTE.exe"
+      VALUE "ProductName", "WconkyTE"
+      VALUE "ProductVersion", "1.0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x809, 1252
+  END
+END
+
+HOME_BITMAP BITMAP "../Graphics/home.bmp"
+BTN_BITMAP BITMAP "../Graphics/arw.bmp"
+GSETTINGS_BITMAP BITMAP "../Graphics/gsettings.bmp"
+TXT_BITMAP BITMAP "../Graphics/txt.bmp"
+GRAPH_BITMAP BITMAP "../Graphics/graph.bmp"
+DISK_BITMAP BITMAP "../Graphics/disk.bmp"
+TXTADD_BITMAP BITMAP "../Graphics/txtadd.bmp"
+GRAPHADD_BITMAP BITMAP "../Graphics/graphadd.bmp"
+DISKADD_BITMAP BITMAP "../Graphics/diskadd.bmp"
+DELETE_BITMAP BITMAP "../Graphics/delete.bmp"
+LSETTINGS_BITMAP BITMAP "../Graphics/lsettings.bmp"
+SAVE_BITMAP BITMAP "../Graphics/save.bmp"

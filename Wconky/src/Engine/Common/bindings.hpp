@@ -1,0 +1,8 @@
+#ifndef COMMON_BINDINGS_HPP_
+#define COMMON_BINDINGS_HPP_
+
+
+
+
+
+#endif /* COMMON_BINDINGS_HPP_ */

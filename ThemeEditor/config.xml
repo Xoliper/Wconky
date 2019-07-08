@@ -1,0 +1,59 @@
+<configurations>
+   <config id="0">
+      <settings>
+         <delay>33</delay>
+         <monitor>0</monitor>
+         <background mode="fit-out" opacity="180">X:\C++\wconky\wallpaper.png</background>
+      </settings>
+      <modules>
+         <cpu fps="30">1</cpu>
+         <ram fps="30">1</ram>
+         <disk fps="1">1</disk>
+         <time fps="1">1</time>
+      </modules>
+      <lang>
+         <days friday="Piatek" monday="Monday" saturday="Saturday" sunday="Sunday" thursday="Thursday" tuesday="Tuesday" wednesday="Wednesday" />
+         <months apr="Apr" aug="Aug" dec="Dec" feb="Feb" jan="Jan" july="July" june="June" mar="Mar" may="May" nov="Nov" oct="Oct" sept="Sept" />
+      </lang>
+      <Extensions>
+         <ManageIcons hotkey="73" />
+      </Extensions>
+      <visualObjects>
+         <object height="50" itemName="Ram Graph" type="graph" useTheme="0" width="380" x="880" y="590">{ram_value}</object>
+         <object align="0" itemName="Ram Label" type="text" useTheme="1" x="1280" y="615">Ram</object>
+         <object align="0" itemName="Ram Value Text" type="text" useTheme="2" x="1280" y="585">{ram_value}%</object>
+         <object height="30" itemName="CPU Graph" type="graph" useTheme="0" width="380" x="880" y="690">{cpu_value}</object>
+         <object align="0" itemName="CPU Label" type="text" useTheme="3" x="1280" y="715">CPU</object>
+         <object align="0" itemName="CPU Value Text" type="text" useTheme="2" x="1280" y="685">{cpu_value}%</object>
+         <object align="2" itemName="Time Text" type="text" useTheme="4" x="1305" y="76">{time_hour}:{time_minute}</object>
+         <object align="2" itemName="Day Name" type="text" useTheme="5" x="1005" y="120">{time_day_str}</object>
+         <object align="2" itemName="Date Text" type="text" useTheme="6" x="1005" y="76">{time_day}/{time_month}/{time_year}</object>
+         <object itemName="Disk Plugin" type="disk" useTheme="7" width="110" x="20" x_inc="130" y="72" y_inc="0" />
+      </visualObjects>
+      <theme id="0">
+         <graphTheme barSpacing="1" barWidth="3" graphBarsCol="0xFFFF00" graphBaseCol="0xFFFFFF" opacity="170" />
+      </theme>
+      <theme id="1">
+         <font color="0xFFFF00" opacity="255" size="60">impact.ttf</font>
+      </theme>
+      <theme id="2">
+         <font color="0xFFFFFF" opacity="255" size="38">impact.ttf</font>
+      </theme>
+      <theme id="3">
+         <font color="0x8000FF" opacity="255" size="60">impact.ttf</font>
+      </theme>
+      <theme id="4">
+         <font color="0xFFFF00" opacity="255" size="260">impact.ttf</font>
+      </theme>
+      <theme id="5">
+         <font color="0xFFFF00" opacity="255" size="150">impact.ttf</font>
+      </theme>
+      <theme id="6">
+         <font color="0xFFFFFF" opacity="180" size="60">impact.ttf</font>
+      </theme>
+      <theme id="7">
+         <font color="0xFFFFFF" opacity="255" size="38">impact.ttf</font>
+         <diskTheme borderColor="0x000000" borderHeight="15" borderThickness="1" fillColor="0xFFFF00" opacity="255" />
+      </theme>
+   </config>
+</configurations>

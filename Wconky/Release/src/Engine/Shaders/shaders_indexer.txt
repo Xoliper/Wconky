@@ -1,0 +1,5 @@
+Path: src/Engine/Shaders/
+object object.shader [  OBJ_MVP{MVP}; OBJ_ViewMatrix{V}; OBJ_ModelMatrix{M}; OBJ_Tex{myTextureSampler}; OBJ_Light{LightPosition_worldspace}; ]
+sprite sprite.shader [  SP_myTextureSampler{myTextureSampler}; SP_ViewMatrix{V}; SP_ModelMatrix{M};  ]
+text text.shader     [  TX_myTextureSampler{myTextureSampler}; TX_ViewMatrix{V}; TX_ModelMatrix{M}; TX_Color{textColor}; ]
+primitive primitive.shader     [  PR_ViewMatrix{V}; PR_ModelMatrix{M}; PR_Color{primitiveColor}; ]
