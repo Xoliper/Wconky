@@ -1,4 +1,4 @@
-# Wconky
+# Wconky [abandoned long time ago]
 Wconky is a free, fully customizable software desktop system monitor for the Windows system.
 
 Wconky preview:
@@ -11,5 +11,5 @@ Theme editor preview:
 
 Please, configure your "config.xml" file with included editor and be SURE that everything is filled (and with a valid data/paths) because when I wrote this code, I did not handle any errors (it was just a project to pass the course and it was supposed to just work)...
 
-# Support [abandoned]
+# Support 
 The project is quite old and therefore abandoned (I am ashamed to look at this code after years), but the binary works. Tested on Intel and nVidia cards.
